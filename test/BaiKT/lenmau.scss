@@ -41,8 +41,10 @@
         .page-header-text {
             text-transform: uppercase;
             margin-bottom: 50px;
+            font-family: 'Poppins', sans-serif;
         }
         a {
+            font-weight: bold;
             text-transform: uppercase;
             text-decoration: none;
             background-color: #fff;
@@ -60,7 +62,7 @@
         text-align: center;
         h1 {
             font-size: 80px;
-            color: bisque;
+            color: #ffb65f;
             text-transform: uppercase;
         }
     }
@@ -86,6 +88,7 @@
         width: 500px;
         margin-bottom: 50px;
         a {
+            font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
             background-color: burlywood;
@@ -110,6 +113,7 @@
             margin-bottom: 50px;
         }
         a {
+            font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
             background-color: darkorange;
@@ -117,6 +121,13 @@
             font-size: 22px;
             border-radius: 50px;
             padding: 15px 35px 15px;
+        }
+    }
+    
+    .text-body {
+        h5 {
+            color: #ffb65f;
+            margin-bottom: 20px;
         }
     }
     
@@ -131,9 +142,10 @@
         h1 {
             color: #fff;
             margin-bottom: 50px;
+            font-weight: bold;
         }
         p {
-            width: 800px;
+            font-family: 'Courier New', Courier, monospace width: 800px;
             margin-right: 50%;
             margin-left: 24%;
         }
